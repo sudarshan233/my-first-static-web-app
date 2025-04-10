@@ -4,7 +4,8 @@ function IngredientsList(props) {
   const ingredientsListItems = props.ingredients.map((ingredient, index) => {
     return /*#__PURE__*/React.createElement("li", {
       key: index,
-      className: ingredient.prepared ? 'prepared' : ''
+      className: ingredient.prepared ? 'prepared' : '',
+      onClick: () => props.onClick(index)
     }, ingredient.name);
   });
   return /*#__PURE__*/React.createElement("ul", null, ingredientsListItems);
