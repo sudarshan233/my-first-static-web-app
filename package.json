@@ -19,6 +19,7 @@
   "devDependencies": {
     "@babel/preset-react": "^7.26.3",
     "@snowpack/plugin-babel": "^2.1.7",
-    "@snowpack/plugin-react-refresh": "^2.5.0"
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "snowpack": "^3.8.8"
   }
 }
